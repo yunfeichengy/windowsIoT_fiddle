@@ -1,6 +1,6 @@
 # windowsIoT_fiddle
 
-playing with windows IoT and raspberry Pi 3
+playing with windows IoT and raspberry Pi 3 \
 simple setup with 2 buttons controlling 2 led respectively
 
 ## requirements
