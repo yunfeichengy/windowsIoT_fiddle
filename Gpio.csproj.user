@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>false</UseEmulator>
+    <RemoteDebugEnabled>true</RemoteDebugEnabled>
+    <DebugEngines>
+    </DebugEngines>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <RemoteDebugMachine>minwinpc</RemoteDebugMachine>
+    <DeploymentType>CopyToDevice</DeploymentType>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <AuthenticationMode>Universal</AuthenticationMode>
+    <LayoutDir />
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <CommandLineArguments>
+    </CommandLineArguments>
+    <CreateCleanLayout>true</CreateCleanLayout>
+    <BackgroundTaskDebugEngines />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <UseEmulator>false</UseEmulator>
+    <RemoteDebugMachine>minwinpc</RemoteDebugMachine>
+    <AuthenticationMode>Universal</AuthenticationMode>
+    <RemoteDebugEnabled>true</RemoteDebugEnabled>
+  </PropertyGroup>
+</Project>
